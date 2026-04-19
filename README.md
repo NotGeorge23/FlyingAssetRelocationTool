@@ -36,4 +36,3 @@
  Example: ARCO-1 DEFAULT
  Result:  Sends ARCO-1 back to its original TRK1/TRK2 route defined in the 
           Mission Editor.
-=========================================================================================
