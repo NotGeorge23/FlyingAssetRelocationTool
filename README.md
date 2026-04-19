@@ -1,16 +1,7 @@
-=========================================================================================
-  _______    ___      .______     .___________.
- |   ____|  /   \     |   _  \    |           |
- |  |__    /  ^  \    |  |_)  |   `---|  |----`
- |   __|  /  /_\  \   |      /        |  |     
- |  |    /  _____  \  |  |\  \----.   |  |     
- |__|   /__/     \__\ | _| `._____|   |__|     
- 
  F.A.R.T. - Flying Asset Relocation Tool
  Map-Marker Based Tanker Re-routing Script
  By NotGeorge
-=========================================================================================
-
+ 
  WHAT IT DOES:
  F.A.R.T. allows you to dynamically reposition Tankers (and other orbiting AI) 
  mid-mission using F10 Map Markers, without breaking their tasks. It also draws 
