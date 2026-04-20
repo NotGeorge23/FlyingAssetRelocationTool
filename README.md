@@ -14,17 +14,17 @@ HOW TO SETUP IN THE MISSION EDITOR:
 HOW TO USE IN-GAME (F10 MAP MARKERS):
 Place a map marker anywhere on the F10 map and type one of the following commands:
 
-Command 1: The Quick Move
+Command 1: Quick Move
 Syntax:  <GroupName>
 Example: ARCO-1
 Result:  Moves ARCO-1's track to the marker. It will use the altitude, heading, and leg length of its default TRK1/TRK2 track. If no default track exists, it defaults to its current altitude, 180 heading, and 20nm legs.
 
-Command 2: The Custom Track
-Syntax:  <GroupName> <Altitude> <Heading> <Leg_Length>
-Example: ARCO-1 25000 090 30
-Result:  Moves ARCO-1 to the marker, sets altitude to 25,000ft, establishes a 090-degree heading, and makes the racetrack 30 nautical miles long.
+Command 2: Custom Track
+ Syntax:  <GroupName> <Altitude> <Heading> <Leg_Length>
+ Example: ARCO-1 25000 090 30
+ Result:  Moves ARCO-1 to the marker, sets altitude to 25,000ft, establishes a 090-degree heading, and makes the racetrack 30 nautical miles long.
 
 Command 3: Reset to Default
-Syntax:  <GroupName> DEFAULT
-Example: ARCO-1 DEFAULT
-Result:  Sends ARCO-1 back to its original TRK1/TRK2 route defined in the Mission Editor.
+ Syntax:  <GroupName> DEFAULT
+ Example: ARCO-1 DEFAULT
+ Result:  Sends ARCO-1 back to its original TRK1/TRK2 route defined in the Mission Editor.
