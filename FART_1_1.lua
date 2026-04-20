@@ -9,7 +9,7 @@
 --  F.A.R.T. - Flying Asset Relocation Tool
 --  Map-Marker Based Tanker Re-routing Script
 --  By NotGeorge
---  Version: 1.0
+--  Version: 1.1
 -- =========================================================================================
 --
 --  WHAT IT DOES:
@@ -117,7 +117,7 @@ function TankerManager.drawMapTrack(groupName, coaId, p1, p2, hdgDeg, legNm, alt
     local hdgDisplay = math.floor(hdgDeg + 0.5)
     local legDisplay = math.floor(legNm * 10) / 10 -- Keep one decimal place
     
-    local title = isDefault and (groupName .. "") or (groupName .. " Track")
+    local title = isDefault and (groupName .. " Home Track") or (groupName .. " Track")
     local labelText = title .. "\nAlt: " .. displayAlt .. "ft\nHdg: " .. hdgDisplay .. " / Leg: " .. legDisplay .. "nm"
     
     draw(function(id) trigger.action.textToAll(coaId, id, p1, {1, 1, 1, 1}, {0, 0, 0, 0.5}, 14, true, labelText) end)
